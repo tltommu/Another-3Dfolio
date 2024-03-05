@@ -253,6 +253,27 @@ import {
       image: Motorventure,
       source_code_link: "https://tltommu.github.io/CraftCMSTest/",
     },
+    {
+      name: "Figma clone",
+      description:
+        "A Figma clone project I learnt side by side with JS Mastery video",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Live-block",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Motorventure,
+      source_code_link: "https://tltommu.github.io/CraftCMSTest/",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
