@@ -210,7 +210,7 @@ import {
         },
       ],
       image: FruitAPI,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://fruitapi2.azurewebsites.net/swagger",
     },
     {
       name: "Refine Dashboard",
