@@ -29,6 +29,7 @@ import {
     FruitAPI,
     RefineDashboard,
     Motorventure,
+    FigmaClone
   } from "../assets";
   
   export const navLinks = [
@@ -271,8 +272,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: Motorventure,
-      source_code_link: "https://tltommu.github.io/CraftCMSTest/",
+      image: FigmaClone,
+      source_code_link: "https://figma-clone-six-pied.vercel.app/",
     },
   ];
   

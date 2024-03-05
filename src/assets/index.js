@@ -36,6 +36,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Motorventure from "./Motorventure.png"
+import FigmaClone from "./FigmaClone.png"
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   FruitAPI,
   RefineDashboard,
   Motorventure,
+  FigmaClone,
 };
