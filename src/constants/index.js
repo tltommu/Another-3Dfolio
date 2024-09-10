@@ -29,7 +29,8 @@ import {
     FruitAPI,
     RefineDashboard,
     Motorventure,
-    FigmaClone
+    FigmaClone,
+    openwebui
   } from "../assets";
   
   export const navLinks = [
@@ -161,6 +162,19 @@ import {
         "Organized and diversified workload for a team of 3 to deliver the project within deadlines.",
       ],
     },
+    {
+      title: "Competition: Regression with an Abalone Dataset (Rank 1206/2606). | Numpy, LightGBM, XGBOOST, Seaborn, Matplotlib",
+      company_name: "Kaggle",
+      icon: kaggle,
+      iconBg: "white",
+      date: "Apr 2024 - May 2024",
+      points: [
+        "Developed two Linear Regression models using two different algorithms (LightGBM and XGBOOST) and compare them to predict the number of ring present in abalone based on their physical features.",
+        "Adjusted model parameters based on data feedback to achieve more accurate results.",
+        "Extracted data insights using matplotlib and seaborn library to illustrate correlation between ring present in the abalone and their corresponding physical features such as biological sex and weight etc.",
+        "Organized workload and communicated effectively to deliver the project within deadlines.",
+      ],
+    },
   ];
   
   const testimonials = [
@@ -275,6 +289,28 @@ import {
       image: FigmaClone,
       source_code_link: "https://figma-clone-six-pied.vercel.app/",
     },
+    {
+      name: "Customized Gemma2 generative AI web app",
+      description:
+        "A self-hosted web app with offline inference and highly customizable prompt-engineering capabllities, with an unified chat interface integrating LLaVA, Stable Diffusion, and Gemma2.",
+      tags: [
+        {
+          name: "Ollama",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Open WebUI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: openwebui,
+      source_code_link: "",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
+  

@@ -37,6 +37,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Motorventure from "./Motorventure.png"
 import FigmaClone from "./FigmaClone.png"
+import openwebui from "./Open webui.png"
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   RefineDashboard,
   Motorventure,
   FigmaClone,
+  openwebui
 };
