@@ -308,7 +308,7 @@ import {
         },
       ],
       image: openwebui,
-      source_code_link: "",
+      
     },
   ];
   
