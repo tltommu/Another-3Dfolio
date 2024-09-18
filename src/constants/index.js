@@ -137,7 +137,7 @@ import {
       ],
     },
     {
-      title: "Competition: ICR-Identifying Age-Related Condition (Rank 2004/6430).",
+      title: "Competition: ICR-Identifying Age-Related Condition (Rank 2004/6430)",
       company_name: "Kaggle",
       icon: kaggle,
       iconBg: "white",
@@ -150,7 +150,7 @@ import {
       ],
     },
     {
-      title: "Competition: Stanford Ribonanza RNA Folding (Rank 354/755).",
+      title: "Competition: Stanford Ribonanza RNA Folding (Rank 354/755)",
       company_name: "Kaggle",
       icon: kaggle,
       iconBg: "white",
@@ -163,7 +163,7 @@ import {
       ],
     },
     {
-      title: "Competition: Regression with an Abalone Dataset (Rank 1206/2606). | Numpy, LightGBM, XGBOOST, Seaborn, Matplotlib",
+      title: "Competition: Regression with an Abalone Dataset (Rank 1206/2606)",
       company_name: "Kaggle",
       icon: kaggle,
       iconBg: "white",
@@ -173,6 +173,19 @@ import {
         "Adjusted model parameters based on data feedback to achieve more accurate results.",
         "Extracted data insights using matplotlib and seaborn library to illustrate correlation between ring present in the abalone and their corresponding physical features such as biological sex and weight etc.",
         "Organized workload and communicated effectively to deliver the project within deadlines.",
+      ],
+    },
+    {
+      title: "NeurIPS - Ariel Data Challenge 2024 (Current Rank 34/675)",
+      company_name: "Kaggle",
+      icon: kaggle,
+      iconBg: "white",
+      date: "August 2024 - Sept 2024",
+      points: [
+        "Loaded and cleaned raw sensor data, applied linear correction using calibration data, and corrected for exposure time, dark frames, and dead/hot pixels.",
+        "Applied signal binning, polynomial fitting, and key phase detection to enhance signal calibration, reduce noise, and improve processing efficiency.",
+        "Utilized Ridge regression and ensembled solutions to predict test results from processed signals for enhanced accuracy.",
+        "Dynamically tuned polynomial fitting and optimized hyperparameters to enhance model performance."
       ],
     },
   ];
