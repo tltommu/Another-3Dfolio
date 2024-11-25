@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { style } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -36,19 +36,32 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
-          className='flex items-center gap-2'
+          className='flex gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[24px] font-bold cursor-pointer flex '>
-            Tommy &nbsp;
-            <span className='sm:block hidden'> | TLtommu</span>
+          <span className="sm:hidden"></span>
+          <p className='text-white text-[24px] font-bold cursor-pointer flex'>
+            Tommy Lam 
           </p>
         </Link>
-
+        <Link
+          to='https://github.com/tltommu'
+          className='flex gap-2'
+          target="_blank"
+        >
+          <img src={github} alt='github logo' className='w-9 h-9 object-contain' />
+          <span className="sm:hidden"></span>
+          <p className='text-white text-[24px] font-bold cursor-pointer flex'>
+          TLtommu
+          </p>
+        </Link> 
+        
+         
+        
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
