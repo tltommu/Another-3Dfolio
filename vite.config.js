@@ -9,9 +9,9 @@ export default defineConfig(({ command, mode }) => {
   return {
     // Vite configuration
     define: {
-      __VITE_EMAILJS_SERVICE_ID__: JSON.stringify(env.VITE_EMAILJS_SERVICE_ID),
-      __VITE_EMAILJS_TEMPLATE_ID__: JSON.stringify(env.VITE_EMAILJS_TEMPLATE_ID),
-      __VITE_EMAILJS_PUBLIC_KEY__: JSON.stringify(env.VITE_EMAILJS_PUBLIC_KEY),
+      VITE_EMAILJS_SERVICE_ID: JSON.stringify(env.VITE_EMAILJS_SERVICE_ID),
+      VITE_EMAILJS_TEMPLATE_ID: JSON.stringify(env.VITE_EMAILJS_TEMPLATE_ID),
+      VITE_EMAILJS_PUBLIC_KEY: JSON.stringify(env.VITE_EMAILJS_PUBLIC_KEY),
     },
     plugins: [react()], // Include plugins here
   };
