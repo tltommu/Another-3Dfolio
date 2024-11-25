@@ -7,9 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const serviceid = VITE_EMAILJS_SERVICE_ID
-const templateid = VITE_EMAILJS_TEMPLATE_ID
-const publickey = VITE_EMAILJS_PUBLIC_KEY
+const serviceid = import.meta.env.VITE_EMAILJS_SERVICE_ID
+const templateid = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+const publickey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
 const Contact = () => {
   const formRef = useRef();
