@@ -30,7 +30,9 @@ import {
     RefineDashboard,
     Motorventure,
     FigmaClone,
-    openwebui
+    openwebui,
+    GoldenForest,
+    ThornBaker
   } from "../assets";
   
   export const navLinks = [
@@ -124,6 +126,44 @@ import {
   
   const experiences = [
     {
+      title: "Freelance Developer",
+      company_name: "Golden Forest Jewelry Limited",
+      icon: GoldenForest,
+      iconBg: "white",
+      date: "Sept 2024 - Nov 2024",
+      points: [
+        "Managed client projects from concept to completion, including creating technical documentation and maintaining clear stakeholder communication, while providing detailed comments in production code for improved clarity and future updates.",
+        "Developed a warehouse management system using .NET (C#) integrated with SQL Server Express, optimizing database schema and ensuring efficient SQL operations.",
+        "Configured and deployed a secure server for inventory management, including migrating existing data to a new SQL database with high accuracy.",
+        "Implemented SAP Crystal Reports to generate real-time inventory reports, enhancing data visibility and improving management processes.",
+        "Adapted quickly to new technologies and frameworks, delivering innovative solutions tailored to client needs."
+      ],
+    },
+    {
+      title: "Kaggle Contributor (Part time & Competitions)",
+      company_name: "",
+      icon: kaggle,
+      iconBg: "white",
+      date: "May 2023 - Nov 2024",
+      points: [
+        "Participated in machine learning competitions, demonstrating precision and analytical skills.",
+        "Managed large datasets, providing insights and communicating results effectively to team members.",
+        "Gained experience with large datasets, enhancing analytical and problem-solving skills."
+      ],
+    },
+    {
+      title: "Warehouse Assistant (Not related to IT but is here to fill in the career gap)",
+      company_name: "Thorn Baker LTD",
+      icon: ThornBaker,
+      iconBg: "white",
+      date: "Aug 2022 - Jan 2024",
+      points: [
+        "Efficiently managed inventory, processed orders, and ensured timely distribution of products.",
+        "Handled document management tasks, including processing delivery notes and updating internal databases.",
+        "Developed strong organizational skills by prioritizing tasks in a busy, fast-paced environment."
+      ],
+    },
+    {
       title: "Summer Intern",
       company_name: "Dayta AI",
       icon: dayta,
@@ -134,58 +174,6 @@ import {
         "Developed effective and transparent communications between stakeholders to cultivate team trust and efficiency.",
         "Gained insight on how big data influences marketing decisions.",
         
-      ],
-    },
-    {
-      title: "Competition: ICR-Identifying Age-Related Condition (Rank 2004/6430)",
-      company_name: "Kaggle",
-      icon: kaggle,
-      iconBg: "white",
-      date: "May 2023 - Aug 2023",
-      points: [
-        "Developed a RandomForestRegression Model with sklearn module to predict age-related condition.",
-        "Adjusted model parameters to hyperparameters to avoid over-fitting.",
-        "Implemented KFOLD to evaluate the model on multiple set of data to detect issues related to underfitting or overfitting.",
-        "Handled imbalanced data by weight-sampling to achieve more accurate results.",
-      ],
-    },
-    {
-      title: "Competition: Stanford Ribonanza RNA Folding (Rank 354/755)",
-      company_name: "Kaggle",
-      icon: kaggle,
-      iconBg: "white",
-      date: "Sept 2023 - Dec 2023",
-      points: [
-        "Developed Sinusoidal positional embedding module to incorporate positional information into RNA module with pytorch to predict RNA structure.",
-        "Utilized K-fold to cross validate RNA model to improve prediction result.",
-        "Tracked training process with a simple process bar created with python tqdm module.",
-        "Organized and diversified workload for a team of 3 to deliver the project within deadlines.",
-      ],
-    },
-    {
-      title: "Competition: Regression with an Abalone Dataset (Rank 1206/2606)",
-      company_name: "Kaggle",
-      icon: kaggle,
-      iconBg: "white",
-      date: "Apr 2024 - May 2024",
-      points: [
-        "Developed two Linear Regression models using two different algorithms (LightGBM and XGBOOST) and compare them to predict the number of ring present in abalone based on their physical features.",
-        "Adjusted model parameters based on data feedback to achieve more accurate results.",
-        "Extracted data insights using matplotlib and seaborn library to illustrate correlation between ring present in the abalone and their corresponding physical features such as biological sex and weight etc.",
-        "Organized workload and communicated effectively to deliver the project within deadlines.",
-      ],
-    },
-    {
-      title: "NeurIPS - Ariel Data Challenge 2024 (Current Rank 34/675)",
-      company_name: "Kaggle",
-      icon: kaggle,
-      iconBg: "white",
-      date: "August 2024 - Sept 2024",
-      points: [
-        "Loaded and cleaned raw sensor data, applied linear correction using calibration data, and corrected for exposure time, dark frames, and dead/hot pixels.",
-        "Applied signal binning, polynomial fitting, and key phase detection to enhance signal calibration, reduce noise, and improve processing efficiency.",
-        "Utilized Ridge regression and ensembled solutions to predict test results from processed signals for enhanced accuracy.",
-        "Dynamically tuned polynomial fitting and optimized hyperparameters to enhance model performance."
       ],
     },
   ];

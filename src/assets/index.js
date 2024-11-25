@@ -38,6 +38,8 @@ import tripguide from "./tripguide.png";
 import Motorventure from "./Motorventure.png"
 import FigmaClone from "./FigmaClone.png"
 import openwebui from "./Open webui.png"
+import GoldenForest from "./GoldenForest.png"
+import ThornBaker from "./ThornBaker.png"
 
 export {
   logo,
@@ -76,5 +78,7 @@ export {
   RefineDashboard,
   Motorventure,
   FigmaClone,
-  openwebui
+  openwebui,
+  GoldenForest,
+  ThornBaker
 };
