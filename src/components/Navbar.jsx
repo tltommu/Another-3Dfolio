@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { style } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close, github } from "../assets";
+import { logo, menu, close, github, Microsoft, kaggle } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -59,7 +59,28 @@ const Navbar = () => {
           TLtommu
           </p>
         </Link> 
-        
+        <Link
+          to='https://learn.microsoft.com/en-us/users/tommylam-7630/transcript/7x09iw2055r9wn7'
+          className='flex gap-2'
+          target="_blank"
+        >
+          <img src={Microsoft} alt='Microsoft logo' className='w-9 h-9 object-contain' />
+          <span className="sm:hidden"></span>
+          <p className='text-white text-[24px] font-bold cursor-pointer flex'>
+          Transcript
+          </p>
+        </Link>
+        <Link
+          to='https://www.kaggle.com/tltommu'
+          className='flex gap-2'
+          target="_blank"
+        >
+          <img src={kaggle} alt='Kaggle logo' className='w-9 h-9 object-contain' />
+          <span className="sm:hidden"></span>
+          <p className='text-white text-[24px] font-bold cursor-pointer flex'>
+          Profile
+          </p>
+        </Link>
          
         
         <ul className='list-none hidden sm:flex flex-row gap-10'>

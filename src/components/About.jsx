@@ -42,7 +42,7 @@ const About = () => {
       <motion.p
       variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with diverse skillset in web-development(in frameworks such as React, Node.js and Three.js), game-development(with building engine such as unreal engine and godot) and machine-learning model development(utilizing modules like pytorch, sklearn, numpy, tensorflow) I'm a quick learner and collobrative developer who can connect with clients and co-worker.
+        I'm a microsoft certified Azure AI Engineer with diverse skillset in software development such as web development(React.js, Next.js)and machine-learning model development(utilizing modules like pytorch, sklearn, numpy, tensorflow) I'm a quick learner and collobrative developer who can connect with clients and co-worker.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

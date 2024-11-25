@@ -40,6 +40,7 @@ import FigmaClone from "./FigmaClone.png"
 import openwebui from "./Open webui.png"
 import GoldenForest from "./GoldenForest.png"
 import ThornBaker from "./ThornBaker.png"
+import Microsoft from "./Microsoft.png"
 
 export {
   logo,
@@ -80,5 +81,6 @@ export {
   FigmaClone,
   openwebui,
   GoldenForest,
-  ThornBaker
+  ThornBaker,
+  Microsoft
 };
