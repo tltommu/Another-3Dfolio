@@ -12,10 +12,11 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${style.heroHeadText}text-white`}>Hi, I'm 
-          <span className='text-[#915eff]'> Tommy</span>
+          <span className='text-[#915eff]'> Tommy</span> 
           </h1>
+          <p className={`${style.heroSubText} mt-2 text-white-100`}>from Hong Kong (currently located in Nottingham, UK)</p>
           <p className={`${style.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user<br className='sm:block hidden'/> interfaces and web applications
+          I develop 3D visuals, user<br className='sm:block hidden'/> interfaces and web applications.
 
           </p>
         </div>
