@@ -1,11 +1,14 @@
-import {BrowserRouter} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components'
+import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas,MLproject,ReactNativeProject,Webproject,BackendProject,SubNavbar} from './components'
 const App=() =>{
   
   return (
+    <>
     <BrowserRouter>
-    <div className='relative z-0 bg-primary'>
+    <Routes>
+      <Route path="/" element={<>
+      <div className='relative z-0 bg-primary'>
       <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Navbar />
         <Hero/>
@@ -18,10 +21,16 @@ const App=() =>{
       <div className='relative z-0'>
         <Contact/>
         <StarsCanvas/>
-
       </div>
     </div>
+      </>}/>
+      <Route path="/Webproject" element={<><SubNavbar/><Webproject/></>}/>
+      <Route path="/MLproject" element={<><SubNavbar/><MLproject/></>}/>
+      <Route path="/BackendProject" element={<><SubNavbar/><BackendProject/></>}/>
+      <Route path="/ReactNativeProject" element={<><SubNavbar/><ReactNativeProject/></>}/>
+    </Routes>
       </BrowserRouter>
+      </>
   )
   }
 export default App

@@ -32,7 +32,11 @@ import {
     FigmaClone,
     openwebui,
     GoldenForest,
-    ThornBaker
+    ThornBaker,
+    NeurlIPS,
+    Ribonanza,
+    WMS,
+    Tester
   } from "../assets";
   
   export const navLinks = [
@@ -54,18 +58,22 @@ import {
     {
       title: "Web Developer",
       icon: web,
+      link: '/Webproject'
     },
     {
       title: "React Native Developer",
       icon: mobile,
+      link: '/ReactNativeProject'
     },
     {
       title: "Backend Developer",
       icon: backend,
+      link: 'BackendProject'
     },
     {
       title: "ML Developer",
       icon: ml,
+      link: 'MLproject'
     },
   ];
   
@@ -204,7 +212,195 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
+
+  const BackendProjects=[
+    {name: "Simple Warehouse Mangement system",
+      description:
+        "A demo of my freelance project of developing a simple warehouse management system connected to SQL server database",
+      tags: [
+        {
+          name: ".NET",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server database",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"SQL Server Management Studio",
+          color:"violet-text-gradient"
+        }
+      ],
+      image: WMS,
+      source_code_link: "https://github.com/tltommu/Demo",
+    },
+  ];
+
+  const ReactNativeProjects=[
+    {name: "React-Native Mobile App",
+      description:
+        "A React-Native Mobile App with basic CRUD operations and video streaming capabilities.",
+      tags: [
+        {
+          name: "EXPO",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Appwrite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React-Native",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Tester,
+      source_code_link: "https://github.com/tltommu/Tester",
+    },
+  ];
+
+  const MLprojects=[
+    {name: "NeurIPS - Ariel Data Challenge 2024",
+      description:
+        " Developing machine learning models to extract faint exoplanetary signals from simulated observations of the upcoming ESA Ariel Mission",
+      tags: [
+        {
+          name: "Numpy",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tensorflow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Ridge Model",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: NeurlIPS,
+      source_code_link: "https://github.com/tltommu/NeurIPS",
+    },
+
+    {name: "Stanford Ribonanza RNA Folding",
+      description:
+        "Creating a model that predicts the structures of any RNA molecule and the resulting chemical mapping profile, which can be compared to data collected for each position in the RNA.",
+      tags: [
+        {
+          name: "Numpy",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "KFold",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Sinusoidal positional embedding",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: Ribonanza,
+      source_code_link: "https://github.com/tltommu/NeurIPS",
+    },
+  ];
+
+  const Webprojects=[
+    {name: "FruitAPI webpage",
+      description:
+        "A simple .NET web-app with fruit API implementations that allows full CRUD operations",
+      tags: [
+        {
+          name: ".NET",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: FruitAPI,
+      source_code_link: "https://fruitapi2.azurewebsites.net/swagger",
+    },
+    {
+      name: "Refine Dashboard",
+      description:
+        "Web application that enables users to manage their company's adminstration",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Refine",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RefineDashboard,
+      source_code_link: "https://refine-dashboard-drab.vercel.app/",
+    },
+    {
+      name: "Motorventure blog-post clone",
+      description:
+        "A simple clone of Motorventure crafted using CraftCMS",
+      tags: [
+        {
+          name: "CraftCMS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Motorventure,
+      source_code_link: "https://tltommu.github.io/CraftCMSTest/",
+    },
+    {
+      name: "Figma clone",
+      description:
+        "A Figma clone project I learnt side by side with JS Mastery video",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Live-block",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: FigmaClone,
+      source_code_link: "https://figma-clone-six-pied.vercel.app/",
+    },
+  ];
+
   const projects = [
     {
       name: "FruitAPI webpage",
@@ -313,5 +509,5 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, Webprojects, BackendProjects, MLprojects, ReactNativeProjects };
   

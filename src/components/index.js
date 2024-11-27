@@ -7,6 +7,11 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import MLproject from './MLproject';
+import BackendProject from './BackendProject';
+import ReactNativeProject from './ReactNativeProject';
+import Webproject from './Webproject';
+import SubNavbar from './SubNavbar';
 
 export {
   Hero,
@@ -20,5 +25,10 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  MLproject,
+  BackendProject,
+  ReactNativeProject,
+  Webproject,
+  SubNavbar
 }

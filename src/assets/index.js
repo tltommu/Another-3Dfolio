@@ -41,6 +41,10 @@ import openwebui from "./Open webui.png"
 import GoldenForest from "./GoldenForest.png"
 import ThornBaker from "./ThornBaker.png"
 import Microsoft from "./Microsoft.png"
+import NeurlIPS from "./NeurlIPS.png"
+import Ribonanza from"./Ribonanza.png"
+import WMS from "./WMS.png"
+import Tester from "./Tester.png"
 
 export {
   logo,
@@ -82,5 +86,9 @@ export {
   openwebui,
   GoldenForest,
   ThornBaker,
-  Microsoft
+  Microsoft,
+  NeurlIPS,
+  Ribonanza,
+  WMS,
+  Tester
 };
