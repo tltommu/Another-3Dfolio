@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
           <p className={`${style.heroSubText} mt-2 text-white-100`}>from Hong Kong (currently located in Nottingham, UK)</p>
           <p className={`${style.heroSubText} mt-2 text-white-100`}>
-          I develop 3D visuals, user<br className='sm:block hidden'/> interfaces and web applications.
+          I develop web applications, user interface, <br className='sm:block hidden'></br>mobile app and Machine-Learning models.
 
           </p>
         </div>
