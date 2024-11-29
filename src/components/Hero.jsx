@@ -21,7 +21,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas/>
+
+      <ComputersCanvas classname="hidden sm:flex"/>
 
       <div className='absolute xs:bottom-5 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -41,6 +42,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
+      
   )
 }
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { style } from "../style";
-import { navLinks } from "../constants";
+import { navLinks, navLinks2 } from "../constants";
 import { logo, menu, close, github, Microsoft, kaggle } from "../assets";
 
 const Navbar = () => {
@@ -53,7 +53,7 @@ const Navbar = () => {
           className='flex gap-2'
           target="_blank"
         >
-          <img src={github} alt='github logo' className='w-9 h-9 object-contain' />
+          <img src={github} alt='github logo' className='w-9 h-9 object-contain hidden sm:flex' />
           <span className="sm:hidden"></span>
           <p className='text-white text-[24px] font-bold cursor-pointer flex hidden lg:block'>
           TLtommu
@@ -64,7 +64,7 @@ const Navbar = () => {
           className='flex gap-2'
           target="_blank"
         >
-          <img src={Microsoft} alt='Microsoft logo' className='w-9 h-9 object-contain' />
+          <img src={Microsoft} alt='Microsoft logo' className='w-9 h-9 object-contain hidden sm:flex' />
           <span className="sm:hidden"></span>
           <p className='text-white text-[24px] font-bold cursor-pointer flex hidden lg:block'>
           Transcript
@@ -75,7 +75,7 @@ const Navbar = () => {
           className='flex gap-2'
           target="_blank"
         >
-          <img src={kaggle} alt='Kaggle logo' className='w-9 h-9 object-contain' />
+          <img src={kaggle} alt='Kaggle logo' className='w-9 h-9 object-contain hidden sm:flex' />
           <span className="sm:hidden"></span>
           <p className='text-white text-[24px] font-bold cursor-pointer flex hidden lg:block'>
           Profile
@@ -84,7 +84,7 @@ const Navbar = () => {
          
         
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
+          {navLinks2.map((nav) => (
             <li
               key={nav.id}
               className={`${
@@ -92,7 +92,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`${nav.id}`} target={`${nav.target}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -123,7 +123,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={`${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>

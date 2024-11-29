@@ -41,17 +41,53 @@ import {
   
   export const navLinks = [
     {
-      id: "about",
+      id: "#about",
       title: "About",
+      target:""
     },
     {
-      id: "work",
+      id: "#work",
       title: "Work",
+      target:""
     },
     {
-      id: "contact",
+      id: "#contact",
       title: "Contact",
+      target:""
     },
+    {
+      id: "https://github.com/tltommu",
+      title: "Github",
+      target:"_blank"
+    },
+    {
+      id: "https://learn.microsoft.com/en-us/users/tommylam-7630/transcript/7x09iw2055r9wn7",
+      title: "Microsoft-Learn",
+      target:"_blank"
+    },
+    {
+      id: "https://www.kaggle.com/tltommu",
+      title: "Kaggle",
+      target:"_blank"
+    },
+  ];
+
+  export const navLinks2 = [
+    {
+      id: "#about",
+      title: "About",
+      target:""
+    },
+    {
+      id: "#work",
+      title: "Work",
+      target:""
+    },
+    {
+      id: "#contact",
+      title: "Contact",
+      target:""
+    }
   ];
   
   const services = [
