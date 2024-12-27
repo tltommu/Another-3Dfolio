@@ -120,6 +120,9 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <label>
+          <span className='text-white font-medium mb-4'>Or email me directly at <bold>tommylam.ct@gmail.com</bold></span>
+          </label>
         </form>
       </motion.div>
 
