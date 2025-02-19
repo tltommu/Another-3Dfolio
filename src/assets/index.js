@@ -46,7 +46,7 @@ import Tester from "./Tester.png"
 import Ibis from"./Ibis.png"
 import Azure_AI from "./Azure_AI.png"
 import Google_ads from"./Google_ads.png"
-import invideo_AI from "./invideo_AI.png"
+import invideo_AI from "./Invideo_AI.png"
 import redirect_logo from"./Redirect.png"
 import polyu from "./Polyu.png"
 
