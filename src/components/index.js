@@ -12,6 +12,7 @@ import BackendProject from './BackendProject';
 import ReactNativeProject from './ReactNativeProject';
 import Webproject from './Webproject';
 import SubNavbar from './SubNavbar';
+import Certifications from './Certifications';
 
 export {
   Hero,
@@ -30,5 +31,6 @@ export {
   BackendProject,
   ReactNativeProject,
   Webproject,
-  SubNavbar
+  SubNavbar,
+  Certifications
 }

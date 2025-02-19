@@ -32,8 +32,6 @@ import tesla from "./company/tesla.png";
 
 import RefineDashboard from "./RefineDashboard.png";
 import FruitAPI from "./FruitAPI.png"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Motorventure from "./Motorventure.png"
 import FigmaClone from "./FigmaClone.png"
@@ -45,6 +43,12 @@ import NeurlIPS from "./NeurlIPS.png"
 import Ribonanza from"./Ribonanza.png"
 import WMS from "./WMS.png"
 import Tester from "./Tester.png"
+import Ibis from"./Ibis.png"
+import Azure_AI from "./Azure_AI.png"
+import Google_ads from"./Google_ads.png"
+import invideo_AI from "./invideo_AI.png"
+import redirect_logo from"./redirect.png"
+import polyu from "./Polyu.png"
 
 export {
   logo,
@@ -72,8 +76,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
   tripguide,
   ml,
   kaggle,
@@ -90,5 +92,11 @@ export {
   NeurlIPS,
   Ribonanza,
   WMS,
-  Tester
+  Tester,
+  Azure_AI,
+  Google_ads,
+  Ibis,
+  invideo_AI,
+  redirect_logo,
+  polyu
 };
