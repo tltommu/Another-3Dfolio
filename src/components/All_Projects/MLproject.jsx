@@ -2,11 +2,11 @@ import React from 'react'
 import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion'
 
-import{style} from '../style'
-import {github} from "../assets"
-import {SectionWrapper} from "../hoc"
-import {Webprojects} from '../constants'
-import { fadeIn, textVariant } from '../utils/motion';
+import{style} from './style'
+import {github} from "./assets"
+import {SectionWrapper} from "./hoc"
+import {MLprojects} from './constants'
+import { fadeIn, textVariant } from './utils/motion';
 
 const ProjectCard = ({
   index,
@@ -67,12 +67,12 @@ const ProjectCard = ({
   );
 };
 
-const Webproject = () => {
+const MLproject = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${style.sectionSubText} `}>My work</p>
-        <h2 className={`${style.sectionHeadText}`}>Web Projects.</h2>
+        <h2 className={`${style.sectionHeadText}`}>ML Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,17 +80,17 @@ const Webproject = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Here is the Web Projects I have done until now
+          Here is the ML Projects I have done until now
         </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {Webprojects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {MLprojects.map((project, index) => (
+          <ProjectCard key={`MLproject-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Webproject, "");
+export default SectionWrapper(MLproject, "");

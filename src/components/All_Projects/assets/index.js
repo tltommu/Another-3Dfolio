@@ -49,6 +49,7 @@ import Google_ads from"./Google_ads.png"
 import invideo_AI from "./Invideo_AI.png"
 import redirect_logo from"./Redirect.png"
 import polyu from "./Polyu.png"
+import herobg from "./herobg.png"
 
 export {
   logo,
@@ -98,5 +99,6 @@ export {
   Ibis,
   invideo_AI,
   redirect_logo,
-  polyu
+  polyu,
+  herobg
 };

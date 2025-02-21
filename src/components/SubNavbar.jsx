@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { style } from "../style";
-import { logo, menu, close, github, Microsoft, kaggle } from "../assets";
+import { logo, github, Microsoft, kaggle } from "./All_Projects/assets";
 
 const SubNavbar = () => {
   const [active, setActive] = useState("");

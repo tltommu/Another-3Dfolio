@@ -35,7 +35,7 @@ import {
     invideo_AI,
     Azure_AI,
     Google_ads,
-    polyu
+    polyu,
   } from "../assets";
   
   export const navLinks = [
@@ -622,5 +622,5 @@ import {
   ]
   ;
   
-  export { services, technologies, experiences, testimonials, projects, Webprojects, BackendProjects, MLprojects, ReactNativeProjects,certs };
+  export { services, technologies, experiences, testimonials, projects, Webprojects, BackendProjects, MLprojects, ReactNativeProjects, certs };
   

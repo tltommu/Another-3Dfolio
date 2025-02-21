@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { style } from "../style";
-import { navLinks, navLinks2 } from "../constants";
-import { logo, menu, close, github, Microsoft, kaggle } from "../assets";
+import { navLinks, navLinks2 } from "./All_Projects/constants";
+import { logo, menu, close, github, Microsoft, kaggle } from "./All_Projects/assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");

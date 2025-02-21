@@ -3,10 +3,10 @@ import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion'
 
 import{style} from '../style'
-import {redirect_logo} from "../assets"
-import {SectionWrapper} from "../hoc"
-import { certs } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import {redirect_logo} from "./All_Projects/assets"
+import {SectionWrapper} from "./All_Projects/hoc"
+import { certs } from './All_Projects/constants';
+import { fadeIn, textVariant } from './All_Projects/utils/motion';
 
 const ProjectCard = ({
   index,

@@ -2,11 +2,11 @@ import React from 'react'
 import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion'
 
-import{style} from '../style'
-import {github} from "../assets"
-import {SectionWrapper} from "../hoc"
-import {ReactNativeProjects} from '../constants'
-import { fadeIn, textVariant } from '../utils/motion';
+import{style} from './style'
+import {github} from "./assets"
+import {SectionWrapper} from "./hoc"
+import {ReactNativeProjects} from './constants'
+import { fadeIn, textVariant } from './utils/motion';
 
 const ProjectCard = ({
   index,

@@ -5,9 +5,9 @@ import {motion} from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css';
 
 import { style } from '../style';
-import { experiences } from '../constants';
-import { SectionWrapper } from '../hoc';
-import { textVariant } from '../utils/motion';
+import { experiences } from './All_Projects/constants';
+import { SectionWrapper } from './All_Projects/hoc';
+import { textVariant } from './All_Projects/utils/motion';
 
 const ExperienceCard= ({experience}) =>(
   <VerticalTimelineElement

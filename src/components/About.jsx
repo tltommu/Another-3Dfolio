@@ -3,9 +3,9 @@ import {Tilt} from 'react-tilt'
 import { motion } from 'framer-motion'
 
 import {style} from'../style'
-import { services } from '../constants'
-import {fadeIn, textVariant} from'../utils/motion'
-import { SectionWrapper } from '../hoc'
+import { services } from './All_Projects/constants'
+import {fadeIn, textVariant} from'./All_Projects/utils/motion'
+import { SectionWrapper } from './All_Projects/hoc'
 import { Link } from 'react-router-dom'
 
 const ServiceCard=({index, title, icon, link})=>{
