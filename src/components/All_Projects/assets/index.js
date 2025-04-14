@@ -50,6 +50,7 @@ import invideo_AI from "./Invideo_AI.png"
 import redirect_logo from"./Redirect.png"
 import polyu from "./Polyu.png"
 import herobg from "./herobg.png"
+import CourseApp from "./CourseApp.png"
 
 export {
   logo,
@@ -100,5 +101,6 @@ export {
   invideo_AI,
   redirect_logo,
   polyu,
-  herobg
+  herobg,
+  CourseApp
 };

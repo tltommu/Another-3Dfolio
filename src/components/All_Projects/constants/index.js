@@ -36,6 +36,7 @@ import {
     Azure_AI,
     Google_ads,
     polyu,
+    CourseApp,
   } from "../assets";
   
   export const navLinks = [
@@ -450,6 +451,29 @@ import {
 
   const projects = [
     {
+      name: "CourseApp2.0",
+      description:
+        "A simple .NET website with full CRUD capabilities connected to SQL Server database and Google OAuth2.0. Allow visitor to leave their comments on the site.",
+      tags: [
+        {
+          name: ".NET",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL-Server",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: CourseApp,
+      source_code_link: "https://courseapp2020250402024208.azurewebsites.net/",
+
+    },
+
+    {
       name: "FruitAPI webpage",
       description:
         "A simple .NET web-app with fruit API implementations that allows full CRUD operations",
@@ -555,6 +579,7 @@ import {
       source_code_link: "https://ai.invideo.io/watch/Uy_sX0KqHkx",
     },
   ]
+  
   const certs =[
     {
       name: "Microsoft Certified: Azure AI Engineer Associate",
