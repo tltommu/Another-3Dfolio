@@ -37,6 +37,7 @@ import {
     Google_ads,
     polyu,
     CourseApp,
+    apprenticeship_project,
   } from "../assets";
   
   export const navLinks = [
@@ -447,6 +448,29 @@ import {
       image: FigmaClone,
       source_code_link: "https://figma-clone-six-pied.vercel.app/",
     },
+    {
+      name: "apprenticeship_project",
+      description:
+        "A basic web form that introduce me to Angular",
+      tags: [
+        {
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: apprenticeship_project,
+      source_code_link: "https://apprenticeship-project.vercel.app/",
+    }
+    
+    
   ];
 
   const projects = [

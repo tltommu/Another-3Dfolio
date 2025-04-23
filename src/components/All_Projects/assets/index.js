@@ -51,6 +51,7 @@ import redirect_logo from"./Redirect.png"
 import polyu from "./Polyu.png"
 import herobg from "./herobg.png"
 import CourseApp from "./CourseApp.png"
+import apprenticeship_project from "./apprenticeship_project.png"
 
 export {
   logo,
@@ -102,5 +103,6 @@ export {
   redirect_logo,
   polyu,
   herobg,
-  CourseApp
+  CourseApp,
+  apprenticeship_project
 };
