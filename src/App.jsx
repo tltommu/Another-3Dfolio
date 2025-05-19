@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import {About, Contact, Experience, Hero, Navbar, Tech, StarsCanvas,SubNavbar, Certifications} from './components'
+import {About, Contact, Experience, Hero, Tech, Navbar, StarsCanvas,SubNavbar, Certifications} from './components'
 import {MLproject,ReactNativeProject,Webproject,BackendProject, Works} from './components/All_Projects'
 const App=() =>{
   
@@ -15,6 +15,7 @@ const App=() =>{
         <Hero/>
       </div>
       <About/>
+      <Tech/>
       <Experience/>
       <Works/>
       <Certifications/>

@@ -1,22 +1,14 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-  
-    threejs,
     ml,
     dayta,
     kaggle,
@@ -24,7 +16,6 @@ import {
     RefineDashboard,
     Motorventure,
     FigmaClone,
-    openwebui,
     GoldenForest,
     ThornBaker,
     NeurlIPS,
@@ -38,6 +29,12 @@ import {
     polyu,
     CourseApp,
     apprenticeship_project,
+    python,
+    pandas,
+    numpy,
+    angular,
+    sklearn,
+    github
   } from "../assets";
   
   export const navLinks = [
@@ -114,15 +111,22 @@ import {
     },
   ];
   
-  const technologies = [
+  const MLtechnologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Pandas",
+      icon: pandas,
     },
+    {
+      name: "Numpy",
+      icon: numpy,
+    },   
+  ];
+
+  const Webtechnologies = [
     {
       name: "JavaScript",
       icon: javascript,
@@ -136,8 +140,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Angular JS",
+      icon: angular,
     },
     {
       name: "Tailwind CSS",
@@ -147,21 +151,38 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
+    /*{
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Redux Toolkit",
+      icon: redux,
     },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    */
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "github",
+      icon: github,
     },
     {
       name: "docker",
@@ -175,7 +196,7 @@ import {
       company_name: "Ibis Consultancy & Kent Busniess College",
       icon: Ibis,
       iconBg: "white",
-      date: "Jan 2025 - Now",
+      date: "Jan 2025 - Apr 2025",
       points: [
         "Assisting in the creation and execution of marketing campaigns across digital channels",
         "Supporting market research activities to identify trends and inform strategy development",
@@ -235,32 +256,7 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+ 
 
   const BackendProjects=[
     {name: "Simple Warehouse Mangement system",
@@ -671,5 +667,5 @@ import {
   ]
   ;
   
-  export { services, technologies, experiences, testimonials, projects, Webprojects, BackendProjects, MLprojects, ReactNativeProjects, certs };
+  export { services, Webtechnologies, experiences, projects, Webprojects, BackendProjects, MLprojects, ReactNativeProjects, certs, MLtechnologies };
   

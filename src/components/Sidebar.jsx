@@ -8,8 +8,6 @@ const Sidebar = () => {
       <li><a href="#">Blog</a></li>
       <li><a href="#">Products</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Forum</a></li>
-      <li><a href="#">Login</a></li>
     </ul>
   </nav>
 
