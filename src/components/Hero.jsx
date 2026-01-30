@@ -1,7 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import {style} from '../style'
-import { ComputersCanvas } from './Hero_Canvas'
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -24,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas classname="hidden sm:flex"/>
+     
 
       <div className='absolute xs:bottom-5 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

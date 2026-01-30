@@ -34,7 +34,8 @@ import {
     numpy,
     angular,
     sklearn,
-    github
+    github,
+    Paulsmith
   } from "../assets";
   
   export const navLinks = [
@@ -192,15 +193,17 @@ import {
   
   const experiences = [
     {
-      title: "Marketing Apprenticeship",
-      company_name: "Ibis Consultancy & Kent Busniess College",
-      icon: Ibis,
+      title: "Temporary Warehouse Assistant",
+      company_name: "Paul Smith LTD",
+      icon: Paulsmith,
       iconBg: "white",
-      date: "Jan 2025 - Apr 2025",
+      date: "Nov 2025- Jan 2026",
       points: [
-        "Assisting in the creation and execution of marketing campaigns across digital channels",
-        "Supporting market research activities to identify trends and inform strategy development",
-        "Collaborating with internal teams to produce engaging content and ensure campaign alignment with client"
+         "Maintained accurate stock records and system updates to support daily operations",
+         "erformed quality checks and data validation to ensure consistency and reliability",
+         "Communicated issues, progress updates, and resolutions clearly with supervisors",
+         "Managed multiple tasks simultaneously in a fast-paced environment while maintaining accuracy",
+         "Escalated discrepancies appropriately to ensure smooth operational flow",
       ]
     },
     {

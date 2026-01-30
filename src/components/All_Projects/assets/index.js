@@ -55,6 +55,7 @@ import herobg from "./Image/herobg.png"
 import CourseApp from "./Image/CourseApp.png"
 import apprenticeship_project from "./Image/apprenticeship_project.png"
 import python from"./Image/python.png"
+import Paulsmith from "./Image/Paulsmith.png"
 
 export {
   logo,
@@ -111,5 +112,6 @@ export {
   python,
   numpy,
   angular,
-  sklearn
+  sklearn,
+  Paulsmith
 };
