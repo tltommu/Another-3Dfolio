@@ -35,7 +35,8 @@ import {
     angular,
     sklearn,
     github,
-    Paulsmith
+    Paulsmith,
+    Googledeepmind
   } from "../assets";
   
   export const navLinks = [
