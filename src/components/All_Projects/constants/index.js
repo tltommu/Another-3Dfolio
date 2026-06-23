@@ -312,32 +312,6 @@ import {
   ];
 
   const MLprojects=[
-
-    {name: "Google DeepMind Measuring Progress Toward AGI - Cognitive Abilities",
-      description:
-        " Developed a benchmark to measure cognitive abilities of ML models from their logical reasoning on biological scenarios.",
-      tags: [
-        {
-          name: "Metacognition",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "AGI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Pydantic",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Kaggle Benchmark",
-          color: "violet-text-gradient",
-        },
-      ],
-      image: NeurlIPS,
-      source_code_link: "https://www.kaggle.com/competitions/kaggle-measuring-agi/writeups/binary-evaluation-of-biological-system-reasoning",
-    },
-
     {name: "NeurIPS - Ariel Data Challenge 2024",
       description:
         " Developing machine learning models to extract faint exoplanetary signals from simulated observations of the upcoming ESA Ariel Mission",
@@ -386,6 +360,30 @@ import {
       ],
       image: Ribonanza,
       source_code_link: "https://github.com/tltommu/NeurIPS",
+    },
+    {name: "Google DeepMind Measuring Progress Toward AGI - Cognitive Abilities",
+      description:
+        " Developed a benchmark to measure cognitive abilities of ML models from their logical reasoning on biological scenarios.",
+      tags: [
+        {
+          name: "Metacognition",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AGI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Pydantic",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Kaggle Benchmark",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: Googledeepmind,
+      source_code_link: "https://www.kaggle.com/competitions/kaggle-measuring-agi/writeups/binary-evaluation-of-biological-system-reasoning",
     },
   ];
 
