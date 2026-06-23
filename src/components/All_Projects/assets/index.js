@@ -56,6 +56,7 @@ import CourseApp from "./Image/CourseApp.png"
 import apprenticeship_project from "./Image/apprenticeship_project.png"
 import python from"./Image/python.png"
 import Paulsmith from "./Image/Paulsmith.png"
+import Googledeepmind from"./Image/Googledeepmind.png"
 
 export {
   logo,
@@ -113,5 +114,6 @@ export {
   numpy,
   angular,
   sklearn,
-  Paulsmith
+  Paulsmith,
+  Googledeepmind
 };
